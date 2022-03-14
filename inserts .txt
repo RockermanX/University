@@ -1,0 +1,138 @@
+INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 1-1','1','1','1',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 1-2','1','1','2',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 1-3','1','1','3',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 1-4','1','1','4',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 1-5','1','1','5',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ #MODULO 2
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 2-1','1','2','1',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 2-2','1','2','2',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 2-3','1','2','3',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 2-4','1','2','4',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 2-5','1','2','5',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+
+  #MODULO 3
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 3-1','1','3','1',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 3-2','1','3','2',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 3-3','1','3','3',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 3-4','1','3','4',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 3-5','1','3','5',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ #MODULO 4
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 4-1','1','4','1',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 4-2','1','4','2',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 4-3','1','4','3',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 4-4','1','4','4',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+ INSERT INTO `leccions`( `leccion`, `estado`, `modulo_id`,`order`, `created_at`, `updated_at`)
+ VALUES ('Leccion 4-5','1','4','5',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+
+
+ # INSERTS VIDEOS
+
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/88240846?h=c0ab2b87d6" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','1');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/328176294?h=cbf17daa6c" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','2');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/238573128?h=b892d80ad2" width="640" height="338" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','3');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/59474226?h=507241f1f7" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','4');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/124139626?h=4313897d6a&color=ffffff&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','5');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/25243561?h=791c410821" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','6');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/223112415?h=683f036195" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','7');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/70333110?h=848aefce57" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','8');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/163322916?h=a196023616" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','9');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/143554285?h=c006f80330" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','10');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/223921663?h=04d865907e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','11');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/174215725?h=9bb20a70b4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','12');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/158137788?h=36876f1430" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','13');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/20855926?h=ce06131734" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','14');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/11368138?h=df49a35f79" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','15');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/102935595?h=b5a4b42e9e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','16');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/12915013?h=945758c3e8" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','17');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/3189584?h=56cc9608e3&color=e0dccb" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','18');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/10522882?h=8d5ede33ef" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','19');
+ INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/35130918?h=584547aa7f" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','20');
+ #INSERT INTO `videos`( `video`, `estado`, `leccion_id`) VALUES ('<iframe src="https://player.vimeo.com/video/7523376?h=ec75567229" width="640" height="424" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>','1','21');
+
+
+#EXAMENES
+
+INSERT INTO `examens`(`modulo_id`, `created_at`, `updated_at`) VALUES ('1',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+
+
+#PREGUNTAS
+
+INSERT INTO `preguntas`( `descripcion`,  `examen_id`) VALUES ('Pregunta1','1');
+INSERT INTO `preguntas`( `descripcion`,  `examen_id`) VALUES ('Pregunta 2','1');
+INSERT INTO `preguntas`( `descripcion`,  `examen_id`) VALUES ('Pregunta 3','1');
+INSERT INTO `preguntas`( `descripcion`,  `examen_id`) VALUES ('Pregunta 4','1');
+INSERT INTO `preguntas`( `descripcion`,  `examen_id`) VALUES ('Pregunta 5','1');
+
+
+#RESPUESTAS
+
+#Pregunta 1
+
+INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta A','0','1');
+INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta B','1','1');
+INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta C','0','1');
+#Pregunta 2
+
+ INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta A2','0','2');
+INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta B2','1','2');
+INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta C2','0','2');
+
+#Pregunta 3
+
+INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta A3','1','3');
+INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta B3','0','3');
+INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta C3','0','3');
+
+#Pregunta 4
+
+ INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta A4','0','4');
+INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta B4','0','4');
+INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta C4','1','4');
+
+#Pregunta 5
+
+ INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta A5','0','5');
+INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta B5','1','5');
+INSERT INTO `respuestas`( `created_at`, `updated_at`, `definicion`, `is_valid`, `pregunta_id`) VALUES (CURRENT_TIMESTAMP,CURRENT_TIMESTAMP,'Respuesta C5','0','5');

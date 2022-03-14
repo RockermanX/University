@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+  font-size: 14px;
+}
+h3 {
+  font-size: 20px;
+}
+.bg-azul {
+  background-color: #337ab7;
+}
+.color-blanco {
+  color: #fff;
+}
+.color-azul {
+  color: #337ab7;
+}
+.color-gris {
+  color: gray;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+@media (max-width: 480px) {
+  .video-width {
+    width: 90%;
+  }
+  .svg-padding {
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .video-width {
+    width: 90%;
+  }
+  .svg-padding {
+    padding-right: 5%;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-top: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .video-width {
+    width: 70%;
+  }
+  .svg-padding {
+    padding-right: 5%;
+    padding-bottom: 100px;
+    padding-left: 5%;
+    padding-top: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .video-width {
+    width: 60%;
+  }
+  .svg-padding {
+    padding-right: 5%;
+    padding-bottom: 100px;
+    padding-left: 5%;
+    padding-top: 100px;
+  }
+}
